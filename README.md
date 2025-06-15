@@ -27,8 +27,7 @@ This lab compares the performance of K-Nearest Neighbors (KNN) and Radius Neighb
 - KNN is more flexible for tuning and may generalize better with the right `k`.
 
 ## Challenges
-- RNN returned slightly lower accuracy overall and required handling cases where no neighbors were found.
-- KNN was more straightforward and consistent to implement.
+- Its counter intuitive to see RNN dropping in accuracy and having constant low accuracy with increasing k values. 
 
 ## Tools Used
 - Python 3
